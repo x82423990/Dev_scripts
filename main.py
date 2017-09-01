@@ -16,7 +16,7 @@ cos_bucket_name = u'ttttt'
 # 日志配置
 logging.basicConfig(level=logging.ERROR,
                     filename='/var/log/cos.log',
-                    filemode='w',
+                    filemode='rw+',
                     format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 
