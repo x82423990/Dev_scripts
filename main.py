@@ -1,7 +1,9 @@
 # coding: utf8
 import hashlib
-import logging, os
-from cos_python import qcloud_cos   # cos_python 是SDK 包,另外需要安装requests 模块
+import logging
+import os
+
+from cos_python import qcloud_cos
 
 base_name = u'/tmp/test'    # 本地上传的路径
 app_id = 8527552  # 替换为用户的appid
